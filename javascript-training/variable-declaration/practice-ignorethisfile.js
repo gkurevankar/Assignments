@@ -50,4 +50,4 @@ let y=200;
 
 
 /* Note: Variable declared outside the block can be accessed inside the block
-But Varibale declared inside the block cannot be accessed outside. */
+But Varibale declared inside the block cannot be accessed outside. */123
