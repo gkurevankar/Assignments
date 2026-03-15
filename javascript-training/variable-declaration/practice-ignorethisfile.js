@@ -52,3 +52,13 @@ let y=200;
 /* Note: Variable declared outside the block can be accessed inside the block
 But Varibale declared inside the block cannot be accessed outside. */
 //Want to commit thid code to git-just as a practice
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
+//I am comitting to practice GIT
