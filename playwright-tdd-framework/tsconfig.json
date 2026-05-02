@@ -2,8 +2,8 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     //module resolution and options
-    "noEmit": true,
-    "allowImportingTsExtensions": true,
+    "noEmit": true,  //added manually to prevent emitting js files, since we are using ts-node for execution
+    "allowImportingTsExtensions": true, //added manually to allow importing .ts files without needing to specify the extension in import statements
     // File Layout
     // "rootDir": "./src",
     // "outDir": "./dist",
