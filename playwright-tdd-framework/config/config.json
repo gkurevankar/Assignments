@@ -1,0 +1,23 @@
+{
+    "app":{
+        "url": "https://accounts.creatio.com/login/alm",
+        "title": "Creatio Login"
+    },
+    "db": {
+        "host": "localhost",
+        "port": 330,
+        "USERNAME": "root",
+        "PASSWORD": "password", 
+        "DATABASE": "test_db"
+    },
+    "api" : {
+        "endpoint": "https://api.creatio.com",
+        "key": "your_api_key"
+    },
+    "ollamma":{
+        "model":"ollamma/ollama:latest",
+        "temperature": 0.7,
+        "max_tokens": 1000
+    }
+
+}
