@@ -150,10 +150,10 @@ export class WebCommons {
     async takeScreenshot(path: string): Promise<void> {
         await this.page.screenshot({ path });
     }
-
-
-
-
-
-
+    //common method to wait for the element to be visible on the page
+    async waitForElementVisible(locator: string): Promise<void> {
+        const element = this.element(locator);
+        await this.scrollToElement(locator);
+        await element.waitFor({ state: 'visible' });
+    }
 }

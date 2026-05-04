@@ -1,7 +1,7 @@
 {
     "app":{
         "url": "https://accounts.creatio.com/login/alm",
-        "title": "Creatio Login"
+        "title":"Creatio Login"
     },
     "db": {
         "host": "localhost",
